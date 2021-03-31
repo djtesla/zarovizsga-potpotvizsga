@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class UniqueFinderTest {
 
-   /* private UniqueFinder uniqueFinder;
+   private UniqueFinder uniqueFinder;
     private List<Character> expected;
 
     @BeforeEach
@@ -125,5 +125,5 @@ public class UniqueFinderTest {
         expected.add(':');
         expected.add('0');
         assertEquals(expected, uniqueFinder.uniqueChars("<3 java && my team @ pm @ 3:00"));
-    }*/
+    }
 }
