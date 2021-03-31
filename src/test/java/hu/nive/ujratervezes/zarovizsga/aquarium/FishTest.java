@@ -7,7 +7,7 @@ import java.lang.reflect.Modifier;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FishTest {
-/*
+
 
     @Test
     void test_fishIsAbstract() {
@@ -40,6 +40,6 @@ class FishTest {
         assertEquals("blue", tang.getColor());
         assertTrue(tang.hasMemoryLoss());
     }
-*/
+
 
 }
