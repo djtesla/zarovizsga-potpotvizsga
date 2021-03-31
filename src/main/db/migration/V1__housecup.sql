@@ -1,0 +1,1 @@
+create table house_points(house_name varchar(255), student_name varchar(255), points_earned INT);

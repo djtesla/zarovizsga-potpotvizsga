@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 class HouseCupTest {
-    /*
+
 
     private MariaDbDataSource dataSource;
 
@@ -24,9 +24,9 @@ class HouseCupTest {
     @BeforeEach
     void init() throws SQLException {
         dataSource = new MariaDbDataSource();
-        dataSource.setUrl("jdbc:mariadb://localhost:3306/employees?useUnicode=true");
-        dataSource.setUser("employees");
-        dataSource.setPassword("employees");
+        dataSource.setUrl("jdbc:mariadb://localhost:3306/housepoints?useUnicode=true");
+        dataSource.setUser("housepoints");
+        dataSource.setPassword("housepoints");
 
         houseCup = new HouseCup(dataSource);
 
@@ -87,6 +87,6 @@ class HouseCupTest {
         }
 
     }
-*/
+
 
 }
