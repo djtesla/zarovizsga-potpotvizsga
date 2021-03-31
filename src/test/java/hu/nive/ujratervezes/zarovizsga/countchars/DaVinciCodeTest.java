@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class DaVinciCodeTest {
 
-    /*private DaVinciCode daVinciCode;
+    private DaVinciCode daVinciCode;
 
     @BeforeEach
     void init() {
@@ -56,6 +56,6 @@ class DaVinciCodeTest {
     void test_encode_illegalArgumentException_inputInMoreLinesCharToFindD() {
         String input = "src/test/resources/countchars/input5.txt";
         assertThrows(IllegalArgumentException.class, () -> daVinciCode.encode(input,'D'));
-    }*/
+    }
 
 }
